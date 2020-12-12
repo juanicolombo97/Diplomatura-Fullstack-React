@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejemplo Formulario</title>
+        <link rel="stylesheet" href="formulario.css">
+    </head>
+    <body>
+       <div class="formularios">
+            <h3>Formulario Sencillo</h3>
+            <form action="" method="" >
+                <label for="">Nombre: </label>
+                <input type="text" name=" " id="" placeholder="Nombre" tabindex="1">
+                <label for="">Apellido: </label>
+                <input type="text" name=" " id="" placeholder="Apellido" tabindex="2">
+                <p>Edad:</p>
+                <div class="radio">
+                    <input type="radio" name="edad" value="20-39" >
+                    <label for="edadR1">20-39</label>
+                    <input type='radio' id="edadR2" tabindex='4' name='edad' value='40-59' >
+                    <label for="edadR2">40-59</label>
+                    <input type='radio' id="edadR3" tabindex='5' name='edad' value='60-79' >
+                    <label for="edadR3">60-79</label>
+                </div>
+                <label for="genero">Genero</label>
+                <select name="genero" id="genero">
+                    <option value="femenino">Femenino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="no binario">No binario</option>
+                    <option value="otres">Otres</option>
+                </select>
+                <label for="mail">Mail</label>
+                <input type="mail" name="mail" id="mail"
+                    placeholder="nombre@dominio.com.ar"
+                >
+                <label for="mensaje">Mensaje</label>
+                <textarea type="text" id="mensaje" name='mensaje' placeholder="Mensaje"
+                    rows='10' cols='50' tabindex='8'></textarea>
+                <button>Enviar</button>               
+            </form>
+       </div>
+    </body>
+</html>
