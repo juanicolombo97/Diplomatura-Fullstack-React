@@ -1,0 +1,17 @@
+nav:hover{background-color: red;}
+
+#facebook-link:link {
+    color: red;
+    
+}
+#twitter-link, #facebook-link:visited {
+    color: yellow;
+    
+}
+
+#nav:focus {
+    color: orange;
+}
+#twitter-link:link{
+    color: blue;
+}
