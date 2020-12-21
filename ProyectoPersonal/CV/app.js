@@ -21,6 +21,7 @@ const navSlide = () => {
 }
 
 
-
-
-navSlide();
+const app = () => {
+    navSlide();
+}
+app();

@@ -9,7 +9,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: black;
+    background-color: crimson;
 }
 
 .logo{
@@ -68,7 +68,7 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: black;
+        background-color: crimson;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -108,4 +108,13 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 
+}
+
+.nav-links li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.logo-span {
+    color: black;
 }

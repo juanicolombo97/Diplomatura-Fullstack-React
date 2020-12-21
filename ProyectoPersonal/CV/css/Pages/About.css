@@ -1,4 +1,7 @@
 #about-container {
     display: flex;
     justify-content: center;
+    background: url("../../../img/bkg.png") no-repeat center fixed;
+    height: 100vh;
+    background-size: cover;
 }
