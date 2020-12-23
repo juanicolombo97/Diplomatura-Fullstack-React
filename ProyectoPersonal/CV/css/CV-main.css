@@ -118,3 +118,8 @@ nav{
 .logo-span {
     color: black;
 }
+
+#btn-divs {
+    flex-direction: row;
+    display: flex;
+}
